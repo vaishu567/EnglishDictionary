@@ -1,0 +1,43 @@
+body{
+    margin: 0;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: salmon;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.container{
+    background: rgba(255,255,255,.3);
+    /* display: grid; */
+    padding: 30px;
+    margin: 20px;
+    text-align: center;
+    width: 85%;
+    max-width: 700px;
+    border-radius: 30px;
+    box-shadow: 0 10px 10px rgba(0,0,0,.3);
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.heading{
+    font-size: 35px;
+
+}
+
+.inputEnglish{
+    height: 53px;
+    width: 300px;
+    background-color: rgba(255,255,255,.6);
+    border-color: rgba(255,255,255,.4);
+    font-size: 16px;
+    padding: 0 42px;
+    border-radius: 5px;
+    max-width: 230px;
+}
+
+.meaning-container{
+    display: none;
+}
